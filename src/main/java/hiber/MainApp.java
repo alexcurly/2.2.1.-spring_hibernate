@@ -34,8 +34,8 @@ public class MainApp {
       userService.add(alex);
       userService.add(vasil);
       userService.add(gajey);
-
-      System.out.println(userService.getUserByCar("AudiA6", 1).getFirstName());
+      
+      System.out.println(userService.getUserByCar("Volga", 1).getFirstName());     
       userService.listUsers();
 
       context.close();
